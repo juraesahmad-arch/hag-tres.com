@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAG Tires - Crafted for Performance. Engineered for Reliability</title>
+    <!-- Font Awesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Style CSS Eksternal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header / Navigasi -->
+    <header>
+        <div class="container navbar">
+            <a href="#" class="logo">
+                <span class="logo-badge">HAG</span>
+                <span class="logo-text">TIRES & RIMS</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active" onclick="closeMobileMenu()">Beranda</a></li>
+                <li><a href="#about" onclick="closeMobileMenu()">Profil & Visi Misi</a></li>
+                <li><a href="#technology" onclick="closeMobileMenu()">Teknologi</a></li>
+                <li><a href="#catalog" onclick="closeMobileMenu()">Katalog Produk</a></li>
+                <li><a href="#contact" onclick="closeMobileMenu()">Kontak</a></li>
+            </ul>
+            <div class="mobile-toggle" id="mobileToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero / Landing Page Section -->
+    <section class="hero" id="home">
+        <!-- Video Latar Belakang -->
+        <video autoplay muted loop playsinline class="hero-video-bg">
+            <source src="WhatsApp Video 2026-08-17 at 10.56.08.mp4" type="video/mp4">
+            Browser Anda tidak mendukung tag video.
+        </video>
+        
+        <!-- Overlay Gelap -->
+        <div class="hero-overlay"></div>
+
+        <!-- Konten Hero -->
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-subtitle"><i class="fas fa-shield-alt"></i> Official Tire Catalogue & Company Profile</span>
+                <h1 class="hero-title">Crafted for Performance. <span>Engineered for Reliability.</span></h1>
+                <p class="hero-desc">
+                    Selamat datang di HAG Tires — destinasi utama solusi ban industri, truk heavy duty, OTR, solid forklift, ban dalam (inner tube), flap, dan steel rims berkinerja tinggi.
+                </p>
+                <div class="hero-btns">
+                    <a href="#catalog" class="btn btn-primary"><i class="fas fa-th-large"></i> Jelajahi Katalog</a>
+                    <a href="#about" class="btn btn-outline"><i class="fas fa-info-circle"></i> Tentang HAG</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <h3>100<span>%</span></h3>
+                        <p>Kualitas Teruji</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>300<span>+</span></h3>
+                        <p>Varian & Ukuran</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>3<span> Layer</span></h3>
+                        <p>Teknologi Solid</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>200<span>%</span></h3>
+                        <p>Overload SHD</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About & Vision Mission Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Company Profile</span>
+                <h2 class="section-title">Profil Perusahaan & Visi Misi</h2>
+                <p class="section-desc">
+                    At HAG, we’re not just tire manufacturers; we’re your trusted companions on the journey.
+                </p>
+            </div>
+
+            <div class="vm-grid">
+                <div class="vm-card">
+                    <div class="vm-icon"><i class="fas fa-eye"></i></div>
+                    <h3>Visi Perusahaan</h3>
+                    <p>Menjadi penyedia solusi ban industri, pertambangan, logistik, dan komersial terdepan di Indonesia yang terpercaya, mengutamakan keamanan dan ketahanan produk kelas dunia.</p>
+                </div>
+
+                <div class="vm-card">
+                    <div class="vm-icon"><i class="fas fa-bullseye"></i></div>
+                    <h3>Misi Perusahaan</h3>
+                    <ul>
+                        <li>Menghadirkan ban luar, ban mati (solid tire), ban dalam (tube), flap, dan rim berkualitas unggul.</li>
+                        <li>Memberikan solusi efisiensi operasional tinggi bagi armada fleet dan industri berat.</li>
+                        <li>Menjaga konsistensi standar keselamatan melalui kontrol kualitas yang ketat.</li>
+                    </ul>
+                </div>
+
+                <div class="vm-card">
+                    <div class="vm-icon"><i class="fas fa-award"></i></div>
+                    <h3>Komitmen Utama</h3>
+                    <ul>
+                        <li><strong>Dependable Traction:</strong> Daya cengkeram optimal di segala medan.</li>
+                        <li><strong>Extreme Durability:</strong> Formula karet alam unggulan tahan aus & panas.</li>
+                        <li><strong>Safety & Peace of Mind:</strong> Menjamin keamanan tanpa downtime.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology & Structure Section -->
+    <section class="tech-section" id="technology">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Inovasi Rekayasa</span>
+                <h2 class="section-title">Teknologi Ban Solid 3-Layer</h2>
+                <p class="section-desc">Struktur rekayasa canggih HAG menjamin performa terbaik untuk beban berat industri.</p>
+            </div>
+
+            <div class="tech-container">
+                <div class="tech-img-box">
+                    <img src="https://images.unsplash.com/photo-1578844251758-2f71da64c96f?auto=format&fit=crop&w=800&q=80" alt="HAG Tire Tech">
+                </div>
+                <div class="tech-details">
+                    <div class="layer-box">
+                        <h4>TREAD LAYER <span>Lapisan Luar</span></h4>
+                        <p>Tahan aus, tidak mudah robek saat menangani beban berat.</p>
+                    </div>
+                    <div class="layer-box">
+                        <h4>CENTER LAYER <span>Lapisan Tengah</span></h4>
+                        <p>Meredam getaran dan mencegah penumpukan panas berlebih.</p>
+                    </div>
+                    <div class="layer-box">
+                        <h4>BASE LAYER <span>Lapisan Dasar</span></h4>
+                        <p>Diperkuat ring baja untuk stabilitas dan grip sempurna pada rim.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catalog Section -->
+    <section class="catalog-section" id="catalog">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">E-Katalog Lengkap</span>
+                <h2 class="section-title">Katalog Produk HAG</h2>
+                <p class="section-desc">Pilih ukuran produk, lalu klik tombol untuk langsung terhubung ke WhatsApp kami.</p>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="catalog-filters">
+                <button class="filter-btn active" onclick="filterCatalog('all', event)">Semua Produk</button>
+                <button class="filter-btn" onclick="filterCatalog('solid', event)">Solid Tires</button>
+                <button class="filter-btn" onclick="filterCatalog('truck-radial', event)">Truck Radial</button>
+                <button class="filter-btn" onclick="filterCatalog('tube-flap', event)">Tube & Flap</button>
+                <button class="filter-btn" onclick="filterCatalog('rims', event)">Steel Rims</button>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" id="searchInput" onkeyup="searchCatalog()" placeholder="Cari ukuran ban, pola, atau spesifikasi...">
+            </div>
+
+            <!-- Catalog Cards Grid -->
+            <div class="catalog-grid" id="catalogGrid">
+                
+                <!-- Product 1 -->
+                <div class="catalog-card" data-category="solid" data-title="solid tire s2000 forklift black non marking 5.00-8 6.00-9 7.00-12 28x9-15">
+                    <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=600&q=80" alt="Solid Tire S2000" class="card-img">
+                    <span class="card-badge">Forklift Solid</span>
+                    <div class="card-body">
+                        <span class="card-category">Ban Solid Forklift</span>
+                        <h3 class="card-title">HAG Solid Tire S2000</h3>
+                        <p class="card-desc">Ban solid forklift 3-Layer performa tinggi. Anti bocor & bebas perawatan.</p>
+                        
+                        <div class="product-select-group">
+                            <label><i class="fas fa-ruler-combined"></i> Pilih Ukuran Ban:</label>
+                            <select class="product-select" id="size-S2000">
+                                <option value="5.00-8 (Solid / 3.00D)">5.00-8 (Load 1,090 kg)</option>
+                                <option value="16x6-8 (Solid / 4.33R)">16x6-8 (Load 1,150 kg)</option>
+                                <option value="18x7-8 (Solid / 4.33R)">18x7-8 (Load 1,650 kg)</option>
+                                <option value="6.00-9 (Solid / 4.00E)">6.00-9 (Load 1,450 kg)</option>
+                                <option value="21x8-9 (Solid / 6.00E)">21x8-9 (Load 2,120 kg)</option>
+                                <option value="6.50-10 (Solid / 5.00F)">6.50-10 (Load 1,800 kg)</option>
+                                <option value="7.00-12 (Solid / 5.00S)">7.00-12 (Load 2,240 kg)</option>
+                                <option value="28x9-15 (Solid / 7.00)">28x9-15 / 8.15-15 (Load 2,650 kg)</option>
+                                <option value="8.25-15 (Solid / 6.50)">8.25-15 (Load 3,550 kg)</option>
+                            </select>
+                        </div>
+
+                        <div class="card-actions">
+                            <button class="btn btn-primary" onclick="directOrderToWhatsApp('Ban Solid Forklift', 'HAG Solid Tire S2000', 'size-S2000')"><i class="fab fa-whatsapp"></i> Pesan Langsung via WA</button>
+                            <button class="btn btn-outline btn-specs" onclick="openModal('modalS2000')"><i class="fas fa-table"></i> Tabel Specs</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="catalog-card" data-category="truck-radial" data-title="tkam hd super am s truck radial 10.00r20 11.00r20 shd long mileage">
+                    <img src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=600&q=80" alt="TKAM HD Radial Tire" class="card-img">
+                    <span class="card-badge">Super Heavy Duty</span>
+                    <div class="card-body">
+                        <span class="card-category">Ban Truk Radial Heavy Duty</span>
+                        <h3 class="card-title">TKAM HD / SUPER AM S</h3>
+                        <p class="card-desc">Ban luar radial posisi All Position untuk truk beban berat (Overload 200%).</p>
+                        
+                        <div class="product-select-group">
+                            <label><i class="fas fa-ruler-combined"></i> Pilih Ukuran Ban:</label>
+                            <select class="product-select" id="size-TKAM">
+                                <option value="7.50R16 14PR">7.50R16 14PR (Single Load 1,500kg)</option>
+                                <option value="8.25R16 16PR">8.25R16 16PR (Single Load 1,800kg)</option>
+                                <option value="10.00R20 TKAM HD 18PR">10.00R20 TKAM HD 18PR (Single Load 3,250kg)</option>
+                                <option value="11.00R20 SUPER AM 18PR">11.00R20 SUPER AM 18PR (Single Load 3,550kg)</option>
+                                <option value="12.00R24 TKDM III 20PR">12.00R24 TKDM III 20PR (Single Load 4,500kg)</option>
+                                <option value="13R22.5 Tubeless 18PR">13R22.5 Tubeless 18PR (Single Load 3,750kg)</option>
+                            </select>
+                        </div>
+
+                        <div class="card-actions">
+                            <button class="btn btn-primary" onclick="directOrderToWhatsApp('Ban Truk Radial Heavy Duty', 'TKAM HD / SUPER AM S', 'size-TKAM')"><i class="fab fa-whatsapp"></i> Pesan Langsung via WA</button>
+                            <button class="btn btn-outline btn-specs" onclick="openModal('modalS2000')"><i class="fas fa-table"></i> Tabel Specs</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="catalog-card" data-category="tube-flap" data-title="heavy duty inner tube flap truck otr tr13 tr75a tr177a tr78a tr179 tr218">
+                    <img src="https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80" alt="Heavy Duty Tube & Flap" class="card-img">
+                    <span class="card-badge">Tube & Flap</span>
+                    <div class="card-body">
+                        <span class="card-category">Ban Dalam & Flap</span>
+                        <h3 class="card-title">Heavy Duty Tube & Flap</h3>
+                        <p class="card-desc">Ban dalam elastisitas tinggi dan flap perlindungan pelek lengkap dengan valve metal.</p>
+                        
+                        <div class="product-select-group">
+                            <label><i class="fas fa-ruler-combined"></i> Pilih Ukuran Tube / Flap:</label>
+                            <select class="product-select" id="size-Tube">
+                                <option value="Ban Dalam 5.00R12 / 5.00R13 (TR13)">Ban Dalam 5.00R12 / 5.00R13 (TR13)</option>
+                                <option value="Ban Dalam 7.00/7.50R15 (TR75A / TR177A)">Ban Dalam 7.00/7.50R15 (TR75A)</option>
+                                <option value="Ban Dalam 7.50R16 / 8.25R16 (TR77A / TR78A)">Ban Dalam 7.50R16 / 8.25R16 (TR78A)</option>
+                                <option value="Ban Dalam 9.00R20 / 10.00R20 (TR78A / TR179A)">Ban Dalam 9.00R20 / 10.00R20 (TR179A)</option>
+                                <option value="Ban Dalam 11.00R20 / 12.00R20 (TR179A / TR218)">Ban Dalam 11.00R20 / 12.00R20 (TR218)</option>
+                                <option value="Flap OTR 1300/1400-24">Flap OTR 1300/1400-24</option>
+                                <option value="Flap OTR 17.5-25 / 20.5-25 / 23.5-25">Flap OTR 17.5-25 / 20.5-25 / 23.5-25</option>
+                            </select>
+                        </div>
+
+                        <div class="card-actions">
+                            <button class="btn btn-primary" onclick="directOrderToWhatsApp('Ban Dalam & Flap', 'Heavy Duty Tube & Flap', 'size-Tube')"><i class="fab fa-whatsapp"></i> Pesan Langsung via WA</button>
+                            <button class="btn btn-outline btn-specs" onclick="openModal('modalS2000')"><i class="fas fa-table"></i> Tabel Specs</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="catalog-card" data-category="rims" data-title="steel wheel rims pelek velg 8.00-20 7.50-20 8.50-20 6.00-16 8.50-24 8h 10h 5h 6h">
+                    <img src="https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=600&q=80" alt="Steel Wheel Rims" class="card-img">
+                    <span class="card-badge">Steel Rim</span>
+                    <div class="card-body">
+                        <span class="card-category">Steel Wheel Rims (Pelek)</span>
+                        <h3 class="card-title">Steel Wheel Rims (Pelek)</h3>
+                        <p class="card-desc">Pelek baja heavy duty untuk truk dan armada industri presisi tinggi.</p>
+                        
+                        <div class="product-select-group">
+                            <label><i class="fas fa-ruler-combined"></i> Pilih Spesifikasi Rim:</label>
+                            <select class="product-select" id="size-Rims">
+                                <option value="Rim 8.00-20 - 8H - 16mm">Rim 8.00-20 - 8 Lubang - 16mm</option>
+                                <option value="Rim 7.50-20 - 8H - 16mm">Rim 7.50-20 - 8 Lubang - 16mm</option>
+                                <option value="Rim 8.50-20 - 10H - 16mm">Rim 8.50-20 - 10 Lubang - 16mm</option>
+                                <option value="Rim 6.00-16 - 5H - 12mm">Rim 6.00-16 - 5 Lubang - 12mm</option>
+                                <option value="Rim 6.00-16 - 6H - 12mm">Rim 6.00-16 - 6 Lubang - 12mm</option>
+                                <option value="Rim 8.50-24 - 10H - 16mm">Rim 8.50-24 - 10 Lubang - 16mm</option>
+                            </select>
+                        </div>
+
+                        <div class="card-actions">
+                            <button class="btn btn-primary" onclick="directOrderToWhatsApp('Steel Wheel Rims (Pelek)', 'Steel Wheel Rims (Pelek)', 'size-Rims')"><i class="fab fa-whatsapp"></i> Pesan Langsung via WA</button>
+                            <button class="btn btn-outline btn-specs" onclick="openModal('modalS2000')"><i class="fas fa-table"></i> Tabel Specs</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Specs -->
+    <div class="modal" id="modalS2000">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal('modalS2000')">&times;</span>
+            <div class="modal-header">
+                <h3 class="modal-title">Spesifikasi HAG Solid Tires</h3>
+            </div>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Size</th>
+                            <th>Type / Rim</th>
+                            <th>O.D (mm)</th>
+                            <th>S.W (mm)</th>
+                            <th>Load (kg)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>5.00-8</td><td>Solid / 3.00D</td><td>453</td><td>120</td><td>1,090 kg</td></tr>
+                        <tr><td>16x6-8</td><td>Solid / 4.33R</td><td>414</td><td>148</td><td>1,150 kg</td></tr>
+                        <tr><td>18x7-8</td><td>Solid / 4.33R</td><td>451</td><td>148</td><td>1,650 kg</td></tr>
+                        <tr><td>6.00-9</td><td>Solid / 4.00E</td><td>528</td><td>141</td><td>1,450 kg</td></tr>
+                        <tr><td>7.00-12</td><td>Solid / 5.00S</td><td>657</td><td>165</td><td>2,240 kg</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Info Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-info" style="max-width: 600px; margin: 0 auto; text-align: center;">
+                <span class="section-tag">Hubungi Kami</span>
+                <h3>Siap Melayani Armada Anda</h3>
+                <p>Dapatkan penawaran harga khusus grosir dan pengadaan armada fleet langsung dari tim sales kami.</p>
+
+                <div class="contact-item" style="justify-content: center; margin-top: 2rem; display: flex; align-items: center; gap: 1rem;">
+                    <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                    <div class="contact-details" style="text-align: left;">
+                        <h5>Telepon / WhatsApp</h5>
+                        <p>+62 858-8136-4710</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 PT HAG Tire & Rims. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Interactivity -->
+    <script>
+        // Toggle Nav Mobile
+        const mobileToggle = document.getElementById('mobileToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        mobileToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        function closeMobileMenu() {
+            navLinks.classList.remove('active');
+        }
+
+        // Filter Catalog
+        function filterCatalog(category, e) {
+            const buttons = document.querySelectorAll('.filter-btn');
+            buttons.forEach(btn => btn.classList.remove('active'));
+            if (e) e.target.classList.add('active');
+
+            const cards = document.querySelectorAll('.catalog-card');
+            cards.forEach(card => {
+                if (category === 'all' || card.getAttribute('data-category') === category) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        // Search Catalog
+        function searchCatalog() {
+            const query = document.getElementById('searchInput').value.toLowerCase();
+            const cards = document.querySelectorAll('.catalog-card');
+
+            cards.forEach(card => {
+                const searchData = card.getAttribute('data-title').toLowerCase();
+                if (searchData.includes(query)) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        // Modals
+        function openModal(modalId) {
+            document.getElementById(modalId).style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal(modalId) {
+            document.getElementById(modalId).style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        // Direct Order to WhatsApp
+        function directOrderToWhatsApp(category, productName, selectId) {
+            const whatsappNo = "6285881364710";
+            const selectedSize = document.getElementById(selectId).value;
+
+            const textWhatsApp = `Halo HAG Tires, saya ingin memesan langsung dari katalog website:\n\n*Detail Produk:*\n• *Kategori:* ${category}\n• *Nama Produk:* ${productName}\n• *Ukuran / Spesifikasi:* ${selectedSize}\n\nMohon info ketersediaan stok dan penawaran harganya. Terima kasih!`;
+
+            const encodedText = encodeURIComponent(textWhatsApp);
+            window.open(`https://wa.me/${whatsappNo}?text=${encodedText}`, '_blank');
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
